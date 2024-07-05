@@ -8,8 +8,7 @@ void PIDController::set_controller(const double k_p, const double k_i,
     _k_d = k_d;
 }
 
-void PIDController::computer_control_cmd(const double error, const double dt,
-                                         double& control_cmd)
+double PIDController::computer_control_cmd(const double error, const double dt)
 {
     //1.计算微分项
     double diff = 0.0;//误差的差值
@@ -30,7 +29,8 @@ void PIDController::computer_control_cmd(const double error, const double dt,
 
 
     //3.计算控制指令输出
-    control_cmd = _k_p*error + _integral_part + _k_d*diff;
+    double control_cmd = _k_p*error + _integral_part + _k_d*diff;
+    return control_cmd;
     
 }
 

@@ -193,38 +193,7 @@
         {
             "type":"vehicle.nissan.micra",
             "id":"vehicle_9"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_10"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_11"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_12"
-        },
-        {
-            "type":"vehicle.audi.etron",
-            "id":"vehicle_13"
-        },
-        {
-            "type":"vehicle.audi.etron",
-            "id":"vehicle_14"
-        },
-        {
-            "type":"vehicle.audi.etron",
-            "id":"vehicle_15"
-        },
-        {
-            "type":"vehicle.audi.etron",
-            "id":"vehicle_16"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_21"
-        }
+        }   
+
     ]
 }

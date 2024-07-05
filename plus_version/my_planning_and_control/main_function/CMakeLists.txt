@@ -2,9 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 project(my_pnc)
 set(CMAKE_CXX_STANDARD 11)
 
-add_compile_definitions(MAIN_DEBUG)
-add_compile_definitions(PLOT)
-add_compile_definitions(CONTROL_DEBUG)
+
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
   set(CMAKE_C_STANDARD 99)

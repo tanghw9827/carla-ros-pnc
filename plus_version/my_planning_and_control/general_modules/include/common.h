@@ -9,7 +9,9 @@
 #include "tf2/LinearMath/Quaternion.h"
 #include "tf2/convert.h"
 #include "tf2_geometry_msgs/tf2_geometry_msgs.h"
+#include "tool.hpp"
 
+    
 struct TrajectoryPoint
 {
     TrajectoryPoint() : x(0.0), y(0.0), heading(0.0), kappa(0.0), v(0.0),
@@ -149,3 +151,5 @@ TrajectoryPoint object_to_trajectory_point(const derived_object_msgs::msg::Objec
 
 //车辆状态转化为轨迹点
 TrajectoryPoint vehicle_state_to_trajectory_point(const std::shared_ptr<VehicleState> vehicle_state);
+
+

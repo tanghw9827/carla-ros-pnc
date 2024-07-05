@@ -11,6 +11,7 @@
 
 #include "sensor_msgs/msg/imu.hpp"
 
+#include "std_msgs/msg/float64.hpp"
 #include "geometry_msgs/msg/pose.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
 #include "geometry_msgs/msg/pose_with_covariance.hpp"
@@ -30,3 +31,4 @@
 
 #include "lateral_lqr_controller.h"
 #include "lon_cascade_pid_controller.h"
+#include "mpc_controller.h"

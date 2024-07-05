@@ -1,28 +1,28 @@
 #include"control_agent.h"
 
 class ControlAgent : public rclcpp::Node
-//控制代理,用于实现产生控制指令
+// 控制代理,用于实现产生控制指令
 {
 public:
     ControlAgent() : Node("control_agent")
     {
         _role_name = "ego_vehicle";
 
-        //订阅方
-        //里程计信息订阅方
+        // 订阅方
+        // 里程计信息订阅方
         _ego_state = std::make_shared<VehicleState>();
         _odometry_subscriber = this->create_subscription<nav_msgs::msg::Odometry>(
             "/carla/" + _role_name +"/odometry",
             10,
             std::bind(&ControlAgent::odometry_cb,this,std::placeholders::_1) 
         );
-        //创建惯性导航订阅方，订阅车辆当前加速度和角速度消息
+        // 创建惯性导航订阅方，订阅车辆当前加速度和角速度消息
         _imu_subscriber = this->create_subscription<sensor_msgs::msg::Imu>(
             "/carla/" + _role_name +"/imu",
             10,
             std::bind(&ControlAgent::imu_cb,this,std::placeholders::_1)
         );
-        //创建车辆信息订阅方，订阅车辆id号
+        // 创建车辆信息订阅方，订阅车辆id号
         _ego_info_subscriber = this->create_subscription<carla_msgs::msg::CarlaEgoVehicleInfo>(
             "/carla/ego_vehicle/vehicle_info",
             10,
@@ -35,48 +35,74 @@ public:
         );
 
 
-        //发布方
+        // 发布方
         _control_cmd_publisher = this->create_publisher<carla_msgs::msg::CarlaEgoVehicleControl>(
             "/carla/" + _role_name + "/vehicle_control_cmd",
             10
         );
+        _real_speed_publisher = this->create_publisher<std_msgs::msg::Float64>(
+            "real_speed",
+            10
+        );
+        _real_heading_publisher = this->create_publisher<std_msgs::msg::Float64>(
+            "real_heading",
+            10
+        );
 
-        //控制器
-        _control_time_step = 0.02;//20ms执行一次控制
+        // 控制器
+        _control_time_step = 0.02;// 20ms执行一次控制
         _control_timer = this->create_wall_timer(std::chrono::milliseconds(static_cast<int>(_control_time_step*1000)),
                                                  std::bind(&ControlAgent::control_run_step,this));
         _lon_cascade_pid_controller = std::make_unique<LonCascadePIDController>();
         _lateral_lqr_controller = std::make_unique<LateralLQRController>();
+        _mpc_controller = std::make_unique<MPCController>();
 
 
     }
 private:
-    std::string _role_name ;//主车名称
+    std::string _role_name ;// 主车名称
 
-    //订阅方以及订阅的数据
-    rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr _odometry_subscriber;//里程计订阅方，订阅本车当前位姿与速度
-    rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr _imu_subscriber;//惯性导航订阅方，订阅加速度与角速度
-    rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleInfo>::SharedPtr _ego_info_subscriber;//定于车辆的车道信息
-    std::shared_ptr<VehicleState> _ego_state; //主车信息
+    // 订阅方以及订阅的数据
+    // 里程计订阅方，订阅本车当前位姿与速度
+    rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr _odometry_subscriber;
+    // 惯性导航订阅方，订阅加速度与角速度
+    rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr _imu_subscriber;
+    // 定于车辆的车道信息
+    rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleInfo>::SharedPtr _ego_info_subscriber;
+    // 主车信息
+    std::shared_ptr<VehicleState> _ego_state; 
 
-    rclcpp::Subscription<pnc_msgs::msg::Trajectory>::SharedPtr _trajectory_subscriber;//规划轨迹订阅方
-    std::vector<TrajectoryPoint> _trajectory;//规划轨迹
+    // 规划轨迹订阅方
+    rclcpp::Subscription<pnc_msgs::msg::Trajectory>::SharedPtr _trajectory_subscriber;
+    // 规划轨迹
+    std::vector<TrajectoryPoint> _trajectory;
 
-    //发布方
-    rclcpp::Publisher<carla_msgs::msg::CarlaEgoVehicleControl>::SharedPtr _control_cmd_publisher;//控制指令发布方
+    // 发布方
+    // 控制指令发布方
+    rclcpp::Publisher<carla_msgs::msg::CarlaEgoVehicleControl>::SharedPtr _control_cmd_publisher;
+    // 实际速度发布方,用于rqt绘图
+    rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr _real_speed_publisher;
+    // 实际航向角发布方,用于rqt绘图
+    rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr _real_heading_publisher;
 
-    //控制器
-    std::unique_ptr<LonCascadePIDController> _lon_cascade_pid_controller;//纵向位置PID控制器
-    std::unique_ptr<LateralLQRController> _lateral_lqr_controller;//横向lqr控制器
+    // 控制器
+    // 纵向串级PID控制器
+    std::unique_ptr<LonCascadePIDController> _lon_cascade_pid_controller;
+    // 横向lqr控制器
+    std::unique_ptr<LateralLQRController> _lateral_lqr_controller;
+    // 横纵向MPC控制器
+    std::unique_ptr<MPCController> _mpc_controller;
+    // 控制器时钟
     rclcpp::TimerBase::SharedPtr _control_timer;
+    // 控制时间步
     double _control_time_step;
     
 public:
     void control_run_step()
     {
 
-        //1.信息检查
-        //1.1车辆状态信息检查
+        // 1.信息检查
+        // 1.1车辆状态信息检查
         if (_ego_state->flag_imu == false ||
             _ego_state->flag_info == false ||
             _ego_state->flag_ode == false)
@@ -86,7 +112,7 @@ public:
             return;
         }
         
-        //1.2轨迹信息检查
+        // 1.2轨迹信息检查
             
         if (_trajectory.empty())
         {
@@ -96,21 +122,28 @@ public:
         }
 
         
-        //2.求解控制指令
+        // 2.求解控制指令
         double cur_t = this->now().seconds();
         ControlCMD cmd;
-        //2.1纵向控制
-        _lon_cascade_pid_controller->set_station_controller(0.1, 0.0, 0.0);
-        _lon_cascade_pid_controller->set_speed_controller(2.0, 0.2, 0.0);
-        _lon_cascade_pid_controller->set_speed_integral_saturation_boundary(0.3, -0.3);
-        _lon_cascade_pid_controller->compute_control_cmd(_trajectory, _ego_state, cur_t, _control_time_step, cmd);
-        //2.2横向控制
-        _lateral_lqr_controller->set_r_matrix(1.0);
-        std::vector<double> q_vector = {0.05, 0.0, 1.0, 0.0};
-        _lateral_lqr_controller->set_q_matrix(q_vector);
-        _lateral_lqr_controller->compute_control_cmd(_trajectory, _ego_state, cur_t, _control_time_step, cmd);
+        // 2.1纵向控制
+        // _lon_cascade_pid_controller->set_station_controller(0.1, 0.0, 0.0);
+        // _lon_cascade_pid_controller->set_speed_controller(2.0, 0.2, 0.0);
+        // _lon_cascade_pid_controller->set_speed_integral_saturation_boundary(0.3, -0.3);
+        // _lon_cascade_pid_controller->compute_control_cmd(_trajectory, _ego_state, cur_t, _control_time_step, cmd);
+        // // 2.2横向控制
+        // _lateral_lqr_controller->set_r_matrix(1.0);
+        // std::vector<double> q_vector = {0.05, 0.0, 1.0, 0.0};
+        // _lateral_lqr_controller->set_q_matrix(q_vector);
+        // _lateral_lqr_controller->compute_control_cmd(_trajectory, _ego_state, cur_t, _control_time_step, cmd);
 
-        //3.发布控制指令
+        // 横纵向mpc
+        std::vector<double> q_vector = {50.0, 0.0, 220.0, 0.0, 70.0, 20.0};
+        std::vector<double> r_vector = {70.0, 10.0}; 
+        _mpc_controller->set_matrix_Q(q_vector);
+        _mpc_controller->set_matrix_R(r_vector);
+        _mpc_controller->compute_control_cmd(_trajectory, _ego_state, cur_t, _control_time_step, cmd);
+
+        // 3.发布控制指令
         carla_msgs::msg::CarlaEgoVehicleControl cmd_msg;
         cmd_msg.brake = cmd.brake;
         cmd_msg.steer = cmd.steer;
@@ -118,6 +151,16 @@ public:
         cmd_msg.hand_brake = false;
         cmd_msg.manual_gear_shift = false;
         _control_cmd_publisher->publish(cmd_msg);
+
+        RCLCPP_INFO(this->get_logger(), "油门:%.3f, 刹车:%.3f, 转角:%.3f",cmd.throttle, cmd.brake, cmd.steer);
+
+        // 发布消息,用于rqt绘图
+        std_msgs::msg::Float64 real_speed_msg, real_heading_msg;
+        real_speed_msg.data = _ego_state->v;
+        real_heading_msg.data = _ego_state->heading;
+        _real_speed_publisher->publish(real_speed_msg);
+        _real_heading_publisher->publish(real_heading_msg);
+
     }
 
 private:
@@ -136,7 +179,7 @@ private:
         tf2::Matrix3x3(tf_q).getRPY(roll,pitch,yaw);
         _ego_state->heading = tf2NormalizeAngle(yaw);
         _ego_state->flag_ode = true;
-        //里程计的单位是m/s，转化为km/h
+        // 里程计的单位是m/s，转化为km/h
     }
 
     void imu_cb(sensor_msgs::msg::Imu::SharedPtr imu_msg)
@@ -173,9 +216,9 @@ private:
         }
     }
 
+    // 紧急停车指令
     void emergency_stop()
     {
-        //紧急停车指令
         carla_msgs::msg::CarlaEgoVehicleControl control_msg;
         control_msg.brake = 1.0;
         control_msg.throttle = 0.0;

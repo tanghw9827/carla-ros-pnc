@@ -1,33 +1,34 @@
 #include "common.h"
 
 
-// TrajectoryPoint& TrajectoryPoint::operator=(const TrajectoryPoint& other)
-// {
-//     this->x = other.x;
-//     this->y = other.y;
-//     this->heading = other.heading;
-//     this->kappa = other.kappa;
-//     this->v = other.v;
-//     this->ax = other.ax;
-//     this->ay = other.ay;
-//     this->a_tau = other.a_tau;
-//     this->time_stamped = other.time_stamped;
 
-//     return *this;
-// }
+//  TrajectoryPoint& TrajectoryPoint::operator=(const TrajectoryPoint& other)
+//  {
+//      this->x = other.x;
+//      this->y = other.y;
+//      this->heading = other.heading;
+//      this->kappa = other.kappa;
+//      this->v = other.v;
+//      this->ax = other.ax;
+//      this->ay = other.ay;
+//      this->a_tau = other.a_tau;
+//      this->time_stamped = other.time_stamped;
 
-// TrajectoryPoint::TrajectoryPoint(const TrajectoryPoint& other)
-// {
-//     this->x = other.x;
-//     this->y = other.y;
-//     this->heading = other.heading;
-//     this->kappa = other.kappa;
-//     this->v = other.v;
-//     this->ax = other.ax;
-//     this->ay = other.ay;
-//     this->a_tau = other.a_tau;
-//     this->time_stamped = other.time_stamped;
-// }
+//      return *this;
+//  }
+
+//  TrajectoryPoint::TrajectoryPoint(const TrajectoryPoint& other)
+//  {
+//      this->x = other.x;
+//      this->y = other.y;
+//      this->heading = other.heading;
+//      this->kappa = other.kappa;
+//      this->v = other.v;
+//      this->ax = other.ax;
+//      this->ay = other.ay;
+//      this->a_tau = other.a_tau;
+//      this->time_stamped = other.time_stamped;
+//  }
 void Calculate_heading_and_kappa(std::vector<PathPoint>& path)
 {
     int n = path.size();
@@ -78,8 +79,8 @@ void Calculate_heading_and_kappa(std::vector<PathPoint>& path)
             dtheta[i] = (path.at(i+1).heading - path.at(i-1).heading)/2.0;
         }
         
-        //这里可能存在多值问题
-        path.at(i).kappa = dtheta[i]/ds[i];
+        // 这里可能存在多值问题
+        path.at(i).kappa = std::sin(dtheta[i])/ds[i];
     }
     
 }
@@ -90,7 +91,7 @@ void calculate_projection_point(const std::vector<PathPoint>& path, const Eigen:
     计算给定点在路径上的投影点
     1.输入参数
     */
-    //1.搜索投影点
+    // 1.搜索投影点
     double min_distance = std::numeric_limits<double>::max();
     size_t count_num = 0;
     for (size_t i = 0; i < path.size(); i++)
@@ -108,23 +109,23 @@ void calculate_projection_point(const std::vector<PathPoint>& path, const Eigen:
             break;
         }
     }
-    //2.由匹配点计算投影点
-    Eigen::Vector2d tau_m; //匹配点切线向量
-    Eigen::Vector2d d;//匹配点指向主车的向量 
-    Eigen::Vector2d match_point;//匹配点位置向量
+    // 2.由匹配点计算投影点
+    Eigen::Vector2d tau_m; // 匹配点切线向量
+    Eigen::Vector2d d;// 匹配点指向主车的向量 
+    Eigen::Vector2d match_point;// 匹配点位置向量
     tau_m << std::cos(path.at(match_point_index).heading),std::sin(path.at(match_point_index).heading);
     match_point << path.at(match_point_index).x, path.at(match_point_index).y;
     d = point - match_point;
-    //2.1计算x，y
+    // 2.1计算x，y
     auto v_pro = match_point + (d.dot(tau_m))*tau_m;
     projection_point.x = v_pro[0];
     projection_point.y = v_pro[1];
-    //2.2计算heading和kappa
+    // 2.2计算heading和kappa
     projection_point.heading = path.at(match_point_index).heading + path.at(match_point_index).kappa *(d.dot(tau_m));
     projection_point.kappa = path.at(match_point_index).kappa;
  
 }
-//计算投影点的重载版本
+// 计算投影点的重载版本
 void calculate_projection_point(const std::vector<PathPoint>& path, const TrajectoryPoint& trajectory_point, int& match_point_index,
                                  PathPoint& match_point, PathPoint& projection_point)
 {
@@ -145,22 +146,22 @@ void calculate_projection_point(const std::vector<PathPoint>& path, const Trajec
             break;
         }
     }
-    //2.由匹配点计算投影点
-    Eigen::Vector2d tau_m; //匹配点切线向量
-    Eigen::Vector2d d;//匹配点指向主车的向量 
-    Eigen::Vector2d v_match_point;//匹配点位置向量
+    // 2.由匹配点计算投影点
+    Eigen::Vector2d tau_m; // 匹配点切线向量
+    Eigen::Vector2d d;// 匹配点指向主车的向量 
+    Eigen::Vector2d v_match_point;// 匹配点位置向量
     tau_m << std::cos(path.at(match_point_index).heading),std::sin(path.at(match_point_index).heading);
     v_match_point << path.at(match_point_index).x, path.at(match_point_index).y;
     d << trajectory_point.x - v_match_point[0], trajectory_point.y - v_match_point[1];
-    //2.1计算x，y，赋值
+    // 2.1计算x，y，赋值
     auto v_pro = v_match_point + (d.dot(tau_m))*tau_m;
     projection_point.x = v_pro[0];
     projection_point.y = v_pro[1];
-    //2.2计算heading和kappa，赋值
+    // 2.2计算heading和kappa，赋值
     projection_point.heading = path.at(match_point_index).heading + path.at(match_point_index).kappa *(d.dot(tau_m));
     projection_point.kappa = path.at(match_point_index).kappa;
 
-    //匹配点赋值
+    // 匹配点赋值
     match_point.x = v_match_point[0];
     match_point.y = v_match_point[1];
     match_point.heading = path.at(match_point_index).heading;
@@ -173,13 +174,13 @@ std::vector<double> calculate_index_to_s(const std::vector<PathPoint>& path, std
     /*
     将路径转换为index2s表，加速后续程序计算
     */
-    //1.计算投影点索引
+    // 1.计算投影点索引
     Eigen::Vector2d host_point(vehicle_state->x, vehicle_state->y);
     int match_point_index;
     PathPoint projection_point;
     calculate_projection_point(path,host_point,match_point_index,projection_point);
 
-    //2.计算初始表，原点为第一个点
+    // 2.计算初始表，原点为第一个点
     std::vector<double> index2s;
     double distance = 0.0;
     index2s.push_back(distance);
@@ -189,17 +190,17 @@ std::vector<double> calculate_index_to_s(const std::vector<PathPoint>& path, std
         index2s.push_back(distance);
     }
 
-    //3.将原点改至投影点
-    //判断投影点在匹配点的前方还是后方,获取投影点所对应的s
+    // 3.将原点改至投影点
+    // 判断投影点在匹配点的前方还是后方,获取投影点所对应的s
     Eigen::Vector2d match_to_pro(projection_point.x - path.at(match_point_index).x,
                                 projection_point.y - path.at(match_point_index).y);
     Eigen::Vector2d tau_match(std::cos(path.at(match_point_index).heading), std::sin(path.at(match_point_index).heading));
     double delta_s = 0;
-    if(match_to_pro.dot(tau_match) > 0.0)//投影点在匹配点前方
+    if(match_to_pro.dot(tau_match) > 0.0)// 投影点在匹配点前方
     {
         delta_s = index2s[match_point_index] + match_to_pro.norm();
     }
-    else if(match_to_pro.dot(tau_match) < 0.0)//投影点在匹配点后方
+    else if(match_to_pro.dot(tau_match) < 0.0)// 投影点在匹配点后方
     {
         delta_s = index2s[match_point_index] - match_to_pro.norm();
     }
@@ -208,13 +209,13 @@ std::vector<double> calculate_index_to_s(const std::vector<PathPoint>& path, std
         delta_s = index2s[match_point_index];
     }
 
-    //将原有的index2s表平移
+    // 将原有的index2s表平移
     for (auto && element : index2s)
     {
         element -= delta_s;
     }
 
-    //4.输出
+    // 4.输出
     return index2s;
 
 }
@@ -228,9 +229,9 @@ std::vector<TrajectoryPoint> frenet_to_cartesion(const std::vector<FrenetPoint>&
     for (int i = 0; i < (int)frenet_point_set.size(); i++)
     {   
         FrenetPoint frenet_point_host(frenet_point_set[i]);
-        //1.寻找匹配点
+        // 1.寻找匹配点
         int match_point_index = -1;
-        if (frenet_point_host.s < cartesian_path_index2s.front())//边界情况
+        if (frenet_point_host.s < cartesian_path_index2s.front())// 边界情况
         {
             match_point_index = 0;
         }
@@ -239,7 +240,7 @@ std::vector<TrajectoryPoint> frenet_to_cartesion(const std::vector<FrenetPoint>&
             match_point_index = cartesian_path_index2s.size()-1;
         }
         else
-        {   //循环index2s，找到在s坐标上，离待转化点最近的点
+        {   // 循环index2s，找到在s坐标上，离待转化点最近的点
             for (int j = 0; j < (int)cartesian_path_index2s.size() - 1 ; j++)
             {
                 if (frenet_point_host.s >= cartesian_path_index2s[j] && frenet_point_host.s < cartesian_path_index2s[j+1])
@@ -257,19 +258,19 @@ std::vector<TrajectoryPoint> frenet_to_cartesion(const std::vector<FrenetPoint>&
                 }   
             }
         }
-        //匹配点，位置向量，航向角，切向量，曲率
+        // 匹配点，位置向量，航向角，切向量，曲率
         Eigen::Vector2d p_match_point(cartesian_path.at(match_point_index).x, cartesian_path.at(match_point_index).y);
         double heading_match_point = cartesian_path.at(match_point_index).heading;
         Eigen::Vector2d tau_match_point(std::cos(heading_match_point), std::sin(heading_match_point));
         double kappa_match_point = cartesian_path.at(match_point_index).kappa;
         
-        //计算投影点
+        // 计算投影点
         Eigen::VectorXd p_projection_point = p_match_point + (frenet_point_host.s - cartesian_path_index2s[match_point_index])*tau_match_point;
         double kappa_projection_point = kappa_match_point;
         double heading_projection_point = heading_match_point + (frenet_point_host.s - cartesian_path_index2s[match_point_index])*kappa_projection_point;
         Eigen::Vector2d nor_projection_point(-std::sin(heading_projection_point), std::cos(heading_projection_point));
 
-        //坐标转换
+        // 坐标转换
         TrajectoryPoint trajectory_point_host;
         Eigen::VectorXd p_host = p_projection_point + frenet_point_host.l*nor_projection_point;
         trajectory_point_host.x = p_host[0];
@@ -288,21 +289,21 @@ std::vector<TrajectoryPoint> frenet_to_cartesion(const std::vector<FrenetPoint>&
 
 void cartesion_set_to_frenet_set(const std::vector<derived_object_msgs::msg::Object>& object_set, const std::vector<TrajectoryPoint>& trajectory, const TrajectoryPoint& original_point, std::vector<FrenetPoint>& frenet_set)
 {
-    //1.若为空，直接退出
+    // 1.若为空，直接退出
     if (object_set.empty())
     {
         return;
     }
 
-    //2.计算index2s表
-    //2.1原始index2s表
+    // 2.计算index2s表
+    // 2.1原始index2s表
     std::vector<double> index2s;
     index2s.emplace_back(0.0);
     for (size_t i = 1; i < trajectory.size(); i++)
     {
         index2s.emplace_back((std::hypot(trajectory[i].x - trajectory[i-1].x, trajectory[i].y - trajectory[i-1].y)) + index2s.back());
     }
-    //2.2搜索匹配点
+    // 2.2搜索匹配点
     int match_point_index = -1;
     double min_distace = std::numeric_limits<double>::max();
     for(int j = 0 ; j < (int)trajectory.size() ; j++)
@@ -314,8 +315,8 @@ void cartesion_set_to_frenet_set(const std::vector<derived_object_msgs::msg::Obj
             match_point_index = j;
         }
     }
-    //2.3由匹配点计算投影点
-    //匹配点信息：位置向量，航向角，曲率，切向量，法向量
+    // 2.3由匹配点计算投影点
+    // 匹配点信息：位置向量，航向角，曲率，切向量，法向量
     Eigen::Vector2d match_point_p(trajectory[match_point_index].x, trajectory[match_point_index].y);
     double match_point_heading = trajectory[match_point_index].heading;
     double match_point_kappa = trajectory[match_point_index].kappa;
@@ -323,18 +324,18 @@ void cartesion_set_to_frenet_set(const std::vector<derived_object_msgs::msg::Obj
     Eigen::Vector2d match_point_nor(-std::sin(match_point_heading), std::cos(match_point_heading));
 
     Eigen::Vector2d match_point_to_original_point(original_point.x - match_point_p[0], original_point.y - match_point_p[1]);
-    //计算投影点信息：位置向量，航向角，曲率，切向量，法向量
+    // 计算投影点信息：位置向量，航向角，曲率，切向量，法向量
     Eigen::Vector2d projection_point_p = match_point_p + match_point_tau*(match_point_tau.dot(match_point_to_original_point));
     double projection_point_heading = match_point_heading + match_point_kappa*(match_point_tau.dot(match_point_to_original_point));
     double projection_point_kappa = match_point_kappa;
     Eigen::Vector2d projection_point_tau(std::cos(projection_point_heading), std::sin(projection_point_heading));
     Eigen::Vector2d projection_point_nor(-std::sin(projection_point_heading), std::cos(projection_point_heading));
 
-    //2.4修正index2s表
+    // 2.4修正index2s表
     Eigen::Vector2d match_point_to_projection_point(projection_point_p[0] - match_point_p[0],
-                                                    projection_point_p[1] - match_point_p[1]);//匹配点指向投影点的向量
-    double delta_s = index2s[match_point_index];//修正量
-    if (match_point_to_projection_point.dot(match_point_tau) > 0)//判断投影点在匹配点的前面还是后面
+                                                    projection_point_p[1] - match_point_p[1]);// 匹配点指向投影点的向量
+    double delta_s = index2s[match_point_index];// 修正量
+    if (match_point_to_projection_point.dot(match_point_tau) > 0)// 判断投影点在匹配点的前面还是后面
     {
         delta_s += match_point_to_projection_point.norm();
     }
@@ -343,18 +344,18 @@ void cartesion_set_to_frenet_set(const std::vector<derived_object_msgs::msg::Obj
         delta_s -= match_point_to_projection_point.norm();
     }
 
-    for (size_t i = 0; i < index2s.size(); i++)//遍历每一个元素，逐个修正
+    for (size_t i = 0; i < index2s.size(); i++)// 遍历每一个元素，逐个修正
     {
         index2s[i] -= delta_s;
     }
 
-    //逐个坐标转化
+    // 逐个坐标转化
     for (auto && object : object_set)
     {
 
         TrajectoryPoint host = object_to_trajectory_point(object);
         
-        //带转化对象相关信息：位置向量，航向角，曲率，切向量，方向向量
+        // 带转化对象相关信息：位置向量，航向角，曲率，切向量，方向向量
         Eigen::Vector2d host_p(host.x, host.y);
         double host_heading = host.heading;
         double host_v = host.v;
@@ -362,7 +363,7 @@ void cartesion_set_to_frenet_set(const std::vector<derived_object_msgs::msg::Obj
         Eigen::Vector2d host_tau(std::cos(host_heading), std::sin(host_heading));
         Eigen::Vector2d host_nor(-std::sin(host_heading), std::cos(host_heading));
 
-        //搜索投影点
+        // 搜索投影点
         match_point_index = -1;
         min_distace = std::numeric_limits<double>::max();
         for(int j = 0 ; j < (int)trajectory.size() ; j++)
@@ -375,21 +376,21 @@ void cartesion_set_to_frenet_set(const std::vector<derived_object_msgs::msg::Obj
             }
         }
 
-        //匹配点信息：位置向量，航向角，曲率，切向量，法向量
+        // 匹配点信息：位置向量，航向角，曲率，切向量，法向量
         match_point_p << trajectory[match_point_index].x, trajectory[match_point_index].y;
         match_point_heading = trajectory[match_point_index].heading;
         match_point_kappa = trajectory[match_point_index].kappa;
         match_point_tau << std::cos(match_point_heading), std::sin(match_point_heading);
         match_point_nor << -std::sin(match_point_heading), std::cos(match_point_heading);
-        //匹配点到待转化点向量
+        // 匹配点到待转化点向量
         Eigen::Vector2d match_point_to_host(host_p[0] - match_point_p[0], host_p[1] - match_point_p[1]);
-        //投影点信息：位置向量，航向角，曲率，切向量，法向量
+        // 投影点信息：位置向量，航向角，曲率，切向量，法向量
         projection_point_p = match_point_p + match_point_tau*(match_point_tau.dot(match_point_to_host));
         projection_point_heading = match_point_heading + match_point_kappa*(match_point_tau.dot(match_point_to_host));
         projection_point_kappa = match_point_kappa;
         projection_point_tau << std::cos(projection_point_heading), std::sin(projection_point_heading);
         projection_point_nor << -std::sin(projection_point_heading), std::cos(projection_point_heading);
-        //坐标转化
+        // 坐标转化
         double l = (host_p - projection_point_p).dot(projection_point_nor);
         double c = 1 - projection_point_kappa*l;
         double s_dot = host_v * (host_tau.dot(projection_point_tau))/c;
@@ -400,8 +401,8 @@ void cartesion_set_to_frenet_set(const std::vector<derived_object_msgs::msg::Obj
         double l_prime_prime = (l_dot_dot - l_prime*s_dot_dot)/(s_dot*s_dot + 1e-3);
         double s = index2s[match_point_index];
 
-        match_point_to_projection_point << projection_point_p[0] - match_point_p[0],projection_point_p[1] - match_point_p[1];//匹配点指向投影点的向量
-        if (match_point_to_projection_point.dot(match_point_tau) > 0)//判断投影点在匹配点的前面还是后面
+        match_point_to_projection_point << projection_point_p[0] - match_point_p[0],projection_point_p[1] - match_point_p[1];// 匹配点指向投影点的向量
+        if (match_point_to_projection_point.dot(match_point_tau) > 0)// 判断投影点在匹配点的前面还是后面
         {
             s+= match_point_to_projection_point.norm();
         }
@@ -426,7 +427,7 @@ void cartesion_set_to_frenet_set(const std::vector<derived_object_msgs::msg::Obj
 
 void cartesion_set_to_frenet_set(const std::vector<derived_object_msgs::msg::Object>& object_set, const std::vector<PathPoint>& path, std::shared_ptr<VehicleState> vehicle_state, std::vector<FrenetPoint>& frenet_set)
 {
-    //调用另一个函数，把相应数据转化一下
+    // 调用另一个函数，把相应数据转化一下
     std::vector<TrajectoryPoint> trajectory;
     for (auto &&path_point : path)
     {
@@ -493,7 +494,7 @@ void cartesion_set_to_frenet_set(const std::shared_ptr<VehicleState>& ego_state,
     cartesion_set_to_frenet_set(obj_set, trajectory, trajectory.front(), frenet_set);
 }
 
-//对象转换至轨迹点
+// 对象转换至轨迹点
 TrajectoryPoint object_to_trajectory_point(const derived_object_msgs::msg::Object object)
 {
     TrajectoryPoint trajectory_point;
@@ -528,3 +529,5 @@ TrajectoryPoint vehicle_state_to_trajectory_point(const std::shared_ptr<VehicleS
     return trajectory_point;
 
 }
+
+

@@ -512,6 +512,7 @@ void EMPlanner::generate_trajectory(const std::vector<STPoint>& final_speed_prof
 
         trajectory_point.heading = path_trajectory[nearest_index].heading +
          ((path_trajectory[nearest_index+1].heading - path_trajectory[nearest_index].heading)/(path_index2s[nearest_index+1]-path_index2s[nearest_index]))*(cur_s-path_index2s[nearest_index]);
+        trajectory_point.heading = normalize_angle(trajectory_point.heading);
 
         trajectory_point.kappa = path_trajectory[nearest_index].kappa +
          ((path_trajectory[nearest_index+1].kappa - path_trajectory[nearest_index].kappa)/(path_index2s[nearest_index+1]-path_index2s[nearest_index]))*(cur_s-path_index2s[nearest_index]);
