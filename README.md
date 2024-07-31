@@ -65,13 +65,13 @@ my_planning_and_control
         └── reference_line.cpp
 ```
 # 使用方法  
-源代码：my_planning_and_control文件夹 \
 运行案例：carla_ad_demo(这是carla-ros-bridge里自带的案例)\
-运行指令为:\
-colcon build \
-. install/setup.bash  \
+运行指令为:
+```plaintext
+colcon build
+. install/setup.bash
 ros2 launch carla_ad_demo carla_ad_demo.launch.py  
+```
 # 效果展示
 # 版本更新说明
-v1.0.0:
- 实现纵向串级PID，横向LQR，横纵向MPC，参考线OSQP平滑，路径DP+QP，速度DP+QP
+- v1.0.0: 实现纵向串级PID，横向LQR，横纵向MPC，参考线OSQP平滑，路径DP+QP，速度DP+QP
