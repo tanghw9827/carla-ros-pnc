@@ -1,3 +1,5 @@
+# aplollo_ros_pnc
+在carla_ros_bridge上部署apollo规控算法
 # 简介
 使用Carla和ros2使用C++复现了B站up主忠厚老实的老王的规控教程，供朋友们参考。
 initial_version是初代版本,之后的规控算法在plus_version里更新
