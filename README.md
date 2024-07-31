@@ -1,5 +1,5 @@
 # 项目简介
-使用 Carla 和 ROS2 部署 Apollo 规划控制算法，并在 carla_ad_demo 场景中运行。
+使用 Carla 和 ROS2 部署 Apollo 规划控制算法，并在 carla_ad_demo 场景中运行
 
 # 环境配置
 - Ubuntu 20.04  
