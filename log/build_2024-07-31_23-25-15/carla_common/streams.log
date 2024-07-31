@@ -1,0 +1,19 @@
+[1.085s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_common': PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/prefix_override:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/carla_common build --build-base /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/build install --record /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/install.log --single-version-externally-managed install_data
+[1.308s] running egg_info
+[1.309s] writing ../../build/carla_common/carla_common.egg-info/PKG-INFO
+[1.309s] writing dependency_links to ../../build/carla_common/carla_common.egg-info/dependency_links.txt
+[1.309s] writing requirements to ../../build/carla_common/carla_common.egg-info/requires.txt
+[1.309s] writing top-level names to ../../build/carla_common/carla_common.egg-info/top_level.txt
+[1.334s] reading manifest file '../../build/carla_common/carla_common.egg-info/SOURCES.txt'
+[1.335s] writing manifest file '../../build/carla_common/carla_common.egg-info/SOURCES.txt'
+[1.335s] running build
+[1.335s] running build_py
+[1.335s] running install
+[1.336s] running install_lib
+[1.337s] running install_data
+[1.337s] running install_egg_info
+[1.338s] removing '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages/carla_common-0.0.0-py3.8.egg-info' (and everything under it)
+[1.338s] Copying ../../build/carla_common/carla_common.egg-info to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages/carla_common-0.0.0-py3.8.egg-info
+[1.339s] running install_scripts
+[1.351s] writing list of installed files to '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/install.log'
+[1.458s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_common' returned '0': PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/prefix_override:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/carla_common build --build-base /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/build install --record /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/install.log --single-version-externally-managed install_data

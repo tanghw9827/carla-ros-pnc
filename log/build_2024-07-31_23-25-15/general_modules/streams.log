@@ -1,0 +1,20 @@
+[0.655s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules -- -j16 -l16
+[0.686s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules -- -j16 -l16
+[0.711s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules
+[0.712s] -- Install configuration: ""
+[0.712s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/ament_index/resource_index/package_run_dependencies/general_modules
+[0.712s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/ament_index/resource_index/parent_prefix_path/general_modules
+[0.712s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/environment/ament_prefix_path.sh
+[0.712s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/environment/ament_prefix_path.dsv
+[0.713s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/environment/path.sh
+[0.713s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/environment/path.dsv
+[0.713s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/local_setup.bash
+[0.713s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/local_setup.sh
+[0.714s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/local_setup.zsh
+[0.714s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/local_setup.dsv
+[0.714s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/package.dsv
+[0.714s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/ament_index/resource_index/packages/general_modules
+[0.715s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/cmake/general_modulesConfig.cmake
+[0.715s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/cmake/general_modulesConfig-version.cmake
+[0.715s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/package.xml
+[0.728s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules

@@ -1,0 +1,24 @@
+[ 39%] Built target control_agent
+[ 43%] [32m[1mLinking CXX executable planning_agent[0m
+[100%] Built target planning_agent
+-- Install configuration: "Debug"
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/lib/my_pnc/planning_agent
+-- Set runtime path of "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/lib/my_pnc/planning_agent" to ""
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/lib/my_pnc/control_agent
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/launch
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/launch/my_pnc_launch.py
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/ament_index/resource_index/package_run_dependencies/my_pnc
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/ament_index/resource_index/parent_prefix_path/my_pnc
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/environment/path.sh
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/environment/path.dsv
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/local_setup.bash
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/local_setup.sh
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/local_setup.zsh
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/local_setup.dsv
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/package.dsv
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/ament_index/resource_index/packages/my_pnc
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/cmake/my_pncConfig.cmake
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/cmake/my_pncConfig-version.cmake
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/my_pnc/share/my_pnc/package.xml
