@@ -65,8 +65,8 @@ my_planning_and_control
         └── reference_line.cpp
 ```
 # 使用方法  
-运行案例：carla_ad_demo(这是carla-ros-bridge里自带的案例)\
-运行指令为:
+运行案例：carla_ad_demo\
+运行命令:
 ```plaintext
 colcon build
 . install/setup.bash
