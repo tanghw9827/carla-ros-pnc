@@ -1,14 +1,14 @@
 # 项目简介
 使用Carla和ros2部署apollo规划控制算法，并在carla_ad_demo场景中运行。
 # 环境配置
-Ubuntu20.04（用的WSL2）   
+Ubuntu20.04  
 ros2-foxy   
 Carla-0.9.13  
 osqp0.6.3  
 osqp-eigen0.8.0   
 matplot++最新版本   
 # 算法实现
-控制算法：纵向串级PID，横向LQR，横纵向MPC
+控制算法：纵向串级PID，横向LQR，横纵向MPC \
 规划算法：参考线OSQP平滑，路径DP+QP，速度DP+QP
 # 目录结构
 my_planning_and_control  
