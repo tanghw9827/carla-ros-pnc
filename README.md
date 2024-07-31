@@ -29,9 +29,10 @@ my_planning_and_control
 ├── README.md  
 └── requirements.txt  
 # 使用方法  
-源代码：my_planning_and_control文件夹 
-运行案例：carla_ad_demo(这是carla-ros-bridge里自带的案例)
-运行指令为:colcon build  
+源代码：my_planning_and_control文件夹 \
+运行案例：carla_ad_demo(这是carla-ros-bridge里自带的案例)\
+运行指令为:\
+colcon build
 . install/setup.bash  
 ros2 launch carla_ad_demo carla_ad_demo.launch.py  
 # 效果展示
