@@ -12,22 +12,53 @@ matplot++最新版本
 规划算法：参考线OSQP平滑，路径DP+QP，速度DP+QP
 # 目录结构
 my_planning_and_control  
-├── carla_ad_demo  
-│   ├── launch  
-│   │   └── carla_ad_demo.launch.py  
-│   ├── config  
-│   │   └── carla_ad_demo.yaml  
-│   ├── scripts  
-│   │   ├── carla_control.py  
-│   │   ├── carla_planning.py  
-│   │   ├── carla_utils.py  
-│   │   └── carla_waypoint_publisher.py  
-│   ├── worlds  
-│   │   └── carla_ad_demo.world  
-│   ├── README.md  
-│   └── package.xml  
-├── README.md  
-└── requirements.txt  
+├── controller_modules
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   ├── lateral_lqr_controller.h
+│   │   ├── lon_cascade_pid_controller.h
+│   │   ├── mpc_controller.h
+│   │   └── pid_controller.h
+│   ├── package.xml
+│   └── src
+│       ├── lateral_lqr_controller.cpp
+│       ├── lon_cascade_pid_controller.cpp
+│       ├── mpc_controller.cpp
+│       └── pid_controller.cpp
+├── general_modules
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   ├── common.h
+│   │   ├── polynomial_curve.h
+│   │   └── tool.hpp
+│   ├── package.xml
+│   └── src
+│       ├── common.cpp
+│       ├── polynomial_curve.cpp
+│       └── tool.cpp
+├── main_function
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   ├── control_agent.h
+│   │   └── planning_agent.h
+│   ├── launch
+│   │   └── my_pnc_launch.py
+│   ├── package.xml
+│   └── src
+│       ├── control_agent.cpp
+│       └── planning_agent.cpp
+└── planner_modules
+    ├── CMakeLists.txt
+    ├── include
+    │   ├── emplanner.h
+    │   └── reference_line.h
+    ├── package.xml
+    └── src
+        ├── emplanner.cpp
+        ├── emplanner_node.cpp
+        ├── emplanner_path_planning.cpp
+        ├── emplanner_speed_planning.cpp
+        └── reference_line.cpp
 # 使用方法  
 源代码：my_planning_and_control文件夹 \
 运行案例：carla_ad_demo(这是carla-ros-bridge里自带的案例)\
