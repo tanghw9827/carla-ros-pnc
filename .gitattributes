@@ -1,2 +1,5 @@
 build/my_pnc/planning_agent filter=lfs diff=lfs merge=lfs -text
 install/my_pnc/lib/my_pnc/planning_agent filter=lfs diff=lfs merge=lfs -text
+build/my_pnc/control_agent filter=lfs diff=lfs merge=lfs -text
+install/my_pnc/lib/my_pnc/control_agent filter=lfs diff=lfs merge=lfs -text
+build/my_pnc/CMakeFiles/planning_agent.dir/src/planning_agent.cpp.o filter=lfs diff=lfs merge=lfs -text
