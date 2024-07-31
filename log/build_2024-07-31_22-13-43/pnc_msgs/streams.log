@@ -1,0 +1,135 @@
+[0.710s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_publisher:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_bridge:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_spawn_objects:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_manual_control:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_walker_agent:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_twist_to_control:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common:/opt/ros/foxy /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs -- -j16 -l16
+[0.728s] [  5%] Built target pnc_msgs__cpp
+[0.728s] [ 12%] Built target pnc_msgs__rosidl_generator_c
+[0.729s] [ 35%] Built target pnc_msgs__rosidl_typesupport_cpp
+[0.730s] [ 43%] Built target pnc_msgs__rosidl_typesupport_introspection_cpp
+[0.731s] [ 43%] Built target pnc_msgs__rosidl_typesupport_fastrtps_cpp
+[0.733s] [ 53%] Built target pnc_msgs__rosidl_typesupport_c
+[0.734s] [ 64%] Built target pnc_msgs__rosidl_typesupport_introspection_c
+[0.736s] [ 74%] Built target pnc_msgs__rosidl_typesupport_fastrtps_c
+[0.740s] [ 74%] Built target pnc_msgs
+[0.743s] [ 76%] Built target pnc_msgs__py
+[0.751s] [ 84%] Built target pnc_msgs__python
+[0.761s] [ 89%] Built target pnc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.761s] [ 94%] Built target pnc_msgs__rosidl_typesupport_c__pyext
+[0.766s] [100%] Built target pnc_msgs__rosidl_typesupport_introspection_c__pyext
+[0.782s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_publisher:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_bridge:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_spawn_objects:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_manual_control:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_walker_agent:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_twist_to_control:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common:/opt/ros/foxy /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs -- -j16 -l16
+[0.842s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_publisher:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_bridge:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_spawn_objects:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_manual_control:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_walker_agent:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_twist_to_control:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common:/opt/ros/foxy /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs
+[0.846s] -- Install configuration: ""
+[0.847s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/ament_index/resource_index/rosidl_interfaces/pnc_msgs
+[0.847s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs
+[0.847s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg
+[0.847s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/trajectory_point.h
+[0.847s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.847s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/trajectory.h
+[0.847s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail
+[0.848s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__type_support.h
+[0.848s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__functions.c
+[0.848s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__type_support.h
+[0.848s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__functions.h
+[0.848s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__functions.h
+[0.848s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__struct.h
+[0.848s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__struct.h
+[0.849s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__functions.c
+[0.850s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/environment/library_path.sh
+[0.850s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/environment/library_path.dsv
+[0.851s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/libpnc_msgs__rosidl_generator_c.so
+[0.851s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs
+[0.851s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg
+[0.851s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.851s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail
+[0.851s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_c.h
+[0.851s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_c.h
+[0.852s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/libpnc_msgs__rosidl_typesupport_fastrtps_c.so
+[0.852s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs
+[0.852s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg
+[0.853s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.853s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail
+[0.854s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/dds_fastrtps
+[0.854s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[0.854s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[0.854s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/libpnc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.855s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs
+[0.855s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg
+[0.855s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.855s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail
+[0.855s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__type_support.c
+[0.855s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_c.h
+[0.855s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_c.h
+[0.855s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__type_support.c
+[0.856s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/libpnc_msgs__rosidl_typesupport_introspection_c.so
+[0.856s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/libpnc_msgs__rosidl_typesupport_c.so
+[0.856s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs
+[0.856s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg
+[0.856s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/trajectory_point.hpp
+[0.856s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.856s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/trajectory.hpp
+[0.857s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail
+[0.857s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__type_support.hpp
+[0.857s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__type_support.hpp
+[0.857s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__builder.hpp
+[0.857s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__traits.hpp
+[0.858s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__builder.hpp
+[0.858s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__struct.hpp
+[0.858s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__traits.hpp
+[0.858s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__struct.hpp
+[0.858s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs
+[0.858s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg
+[0.858s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail
+[0.858s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_cpp.hpp
+[0.859s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[0.859s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory_point__type_support.cpp
+[0.859s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/include/pnc_msgs/msg/detail/trajectory__type_support.cpp
+[0.860s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/libpnc_msgs__rosidl_typesupport_introspection_cpp.so
+[0.861s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/libpnc_msgs__rosidl_typesupport_cpp.so
+[0.861s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/environment/pythonpath.sh
+[0.861s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/environment/pythonpath.dsv
+[0.862s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/python3.8/site-packages/pnc_msgs/__init__.py
+[0.882s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/python3.8/site-packages/pnc_msgs/msg
+[0.883s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/python3.8/site-packages/pnc_msgs/msg/_trajectory.py
+[0.883s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/python3.8/site-packages/pnc_msgs/msg/_trajectory_point_s.c
+[0.883s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/python3.8/site-packages/pnc_msgs/msg/_trajectory_s.c
+[0.884s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/python3.8/site-packages/pnc_msgs/msg/_trajectory_point.py
+[0.884s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/python3.8/site-packages/pnc_msgs/msg/__init__.py
+[0.884s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/python3.8/site-packages/pnc_msgs/pnc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.885s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/python3.8/site-packages/pnc_msgs/pnc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.886s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/python3.8/site-packages/pnc_msgs/pnc_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.886s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/lib/libpnc_msgs__python.so
+[0.886s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/msg/TrajectoryPoint.idl
+[0.886s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/msg/Trajectory.idl
+[0.886s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/msg/TrajectoryPoint.msg
+[0.886s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/msg/Trajectory.msg
+[0.886s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/ament_index/resource_index/package_run_dependencies/pnc_msgs
+[0.886s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/ament_index/resource_index/parent_prefix_path/pnc_msgs
+[0.887s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/environment/ament_prefix_path.sh
+[0.887s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/environment/ament_prefix_path.dsv
+[0.887s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/environment/path.sh
+[0.887s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/environment/path.dsv
+[0.887s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/local_setup.bash
+[0.887s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/local_setup.sh
+[0.887s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/local_setup.zsh
+[0.887s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/local_setup.dsv
+[0.887s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/package.dsv
+[0.887s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/ament_index/resource_index/packages/pnc_msgs
+[0.888s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgs__rosidl_generator_cExport.cmake
+[0.888s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.888s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.888s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.888s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgs__rosidl_typesupport_cExport.cmake
+[0.888s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.888s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgs__rosidl_generator_cppExport.cmake
+[0.888s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.888s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.889s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgs__rosidl_typesupport_cppExport.cmake
+[0.889s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.889s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/rosidl_cmake-extras.cmake
+[0.889s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.889s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.889s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.889s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.889s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.889s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.889s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgsConfig.cmake
+[0.890s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/cmake/pnc_msgsConfig-version.cmake
+[0.890s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/pnc_msgs/share/pnc_msgs/package.xml
+[0.898s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_publisher:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_bridge:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_spawn_objects:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_manual_control:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_walker_agent:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_twist_to_control:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common:/opt/ros/foxy /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs

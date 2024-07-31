@@ -1,0 +1,2 @@
+source;share/carla_ad_agent_cpp/environment/ament_prefix_path.sh
+source;share/carla_ad_agent_cpp/environment/path.sh

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ad_agent_cpp/src/ad_agent.cpp
+cstdio
+-
+

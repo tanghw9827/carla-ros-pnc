@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/carla_ros_scenario_runner_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_ros_scenario_runner_types/msg/carla_scenario__type_support.cpp.o"
+  "CMakeFiles/carla_ros_scenario_runner_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_ros_scenario_runner_types/msg/carla_scenario_list__type_support.cpp.o"
+  "CMakeFiles/carla_ros_scenario_runner_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_ros_scenario_runner_types/msg/carla_scenario_runner_status__type_support.cpp.o"
+  "CMakeFiles/carla_ros_scenario_runner_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_ros_scenario_runner_types/srv/execute_scenario__type_support.cpp.o"
+  "libcarla_ros_scenario_runner_types__rosidl_typesupport_c.pdb"
+  "libcarla_ros_scenario_runner_types__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/carla_ros_scenario_runner_types/msg/carla_scenario__type_support.cpp"
+  "rosidl_typesupport_c/carla_ros_scenario_runner_types/msg/carla_scenario_list__type_support.cpp"
+  "rosidl_typesupport_c/carla_ros_scenario_runner_types/msg/carla_scenario_runner_status__type_support.cpp"
+  "rosidl_typesupport_c/carla_ros_scenario_runner_types/srv/execute_scenario__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/carla_ros_scenario_runner_types__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,20 @@
+[0.669s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/controller_modules': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/controller_modules -- -j16 -l16
+[0.709s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/controller_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/controller_modules -- -j16 -l16
+[0.716s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/controller_modules': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/controller_modules
+[0.721s] -- Install configuration: ""
+[0.722s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/ament_index/resource_index/package_run_dependencies/controller_modules
+[0.723s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/ament_index/resource_index/parent_prefix_path/controller_modules
+[0.724s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/environment/ament_prefix_path.sh
+[0.725s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/environment/ament_prefix_path.dsv
+[0.725s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/environment/path.sh
+[0.726s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/environment/path.dsv
+[0.727s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/local_setup.bash
+[0.727s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/local_setup.sh
+[0.727s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/local_setup.zsh
+[0.727s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/local_setup.dsv
+[0.728s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/package.dsv
+[0.728s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/ament_index/resource_index/packages/controller_modules
+[0.728s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/cmake/controller_modulesConfig.cmake
+[0.728s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/cmake/controller_modulesConfig-version.cmake
+[0.729s] -- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/controller_modules/share/controller_modules/package.xml
+[0.734s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/controller_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/controller_modules

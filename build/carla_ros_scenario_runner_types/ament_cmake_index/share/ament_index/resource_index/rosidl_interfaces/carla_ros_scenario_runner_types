@@ -1,0 +1,10 @@
+msg/CarlaScenario.idl
+msg/CarlaScenario.msg
+msg/CarlaScenarioList.idl
+msg/CarlaScenarioList.msg
+msg/CarlaScenarioRunnerStatus.idl
+msg/CarlaScenarioRunnerStatus.msg
+srv/ExecuteScenario.idl
+srv/ExecuteScenario.srv
+srv/ExecuteScenario_Request.msg
+srv/ExecuteScenario_Response.msg

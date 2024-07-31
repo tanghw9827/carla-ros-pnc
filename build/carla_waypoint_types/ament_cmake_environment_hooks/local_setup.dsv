@@ -1,0 +1,4 @@
+source;share/carla_waypoint_types/environment/ament_prefix_path.sh
+source;share/carla_waypoint_types/environment/library_path.sh
+source;share/carla_waypoint_types/environment/path.sh
+source;share/carla_waypoint_types/environment/pythonpath.sh

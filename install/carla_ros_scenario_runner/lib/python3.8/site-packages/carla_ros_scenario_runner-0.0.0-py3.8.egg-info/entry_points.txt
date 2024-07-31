@@ -1,0 +1,3 @@
+[console_scripts]
+carla_ros_scenario_runner = carla_ros_scenario_runner.carla_ros_scenario_runner_node:main
+

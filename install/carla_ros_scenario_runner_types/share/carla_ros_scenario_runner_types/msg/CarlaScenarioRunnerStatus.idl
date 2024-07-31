@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from carla_ros_scenario_runner_types/msg/CarlaScenarioRunnerStatus.msg
+// generated code does not contain a copyright notice
+
+
+module carla_ros_scenario_runner_types {
+  module msg {
+    module CarlaScenarioRunnerStatus_Constants {
+      const uint8 STOPPED = 0;
+      const uint8 STARTING = 1;
+      const uint8 RUNNING = 2;
+      const uint8 SHUTTINGDOWN = 3;
+      const uint8 ERROR = 4;
+    };
+    @verbatim (language="comment", text=
+      " Copyright (c) 2020 Intel Corporation." "\n"
+      "" "\n"
+      " This work is licensed under the terms of the MIT license." "\n"
+      " For a copy, see <https://opensource.org/licenses/MIT>.")
+    struct CarlaScenarioRunnerStatus {
+      uint8 status;
+    };
+  };
+};

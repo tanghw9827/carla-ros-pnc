@@ -1,0 +1,88 @@
+[0.875s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent_cpp': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ad_agent_cpp -DCMAKE_INSTALL_PREFIX=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp
+[1.101s] -- The C compiler identification is GNU 9.4.0
+[1.101s] -- The CXX compiler identification is GNU 9.4.0
+[1.101s] -- Detecting C compiler ABI info
+[1.101s] -- Detecting C compiler ABI info - done
+[1.102s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.102s] -- Detecting C compile features
+[1.102s] -- Detecting C compile features - done
+[1.102s] -- Detecting CXX compiler ABI info
+[1.104s] -- Detecting CXX compiler ABI info - done
+[1.104s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.104s] -- Detecting CXX compile features
+[1.104s] -- Detecting CXX compile features - done
+[1.105s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.106s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.106s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.258s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.323s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.389s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.417s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.536s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.537s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.537s] -- Looking for pthread.h
+[1.571s] -- Looking for pthread.h - found
+[1.571s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.609s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.610s] -- Looking for pthread_create in pthreads
+[1.637s] -- Looking for pthread_create in pthreads - not found
+[1.637s] -- Looking for pthread_create in pthread
+[1.673s] -- Looking for pthread_create in pthread - found
+[1.674s] -- Found Threads: TRUE  
+[1.840s] -- Found carla_msgs: 1.3.0 (/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/share/carla_msgs/cmake)
+[2.000s] -- Found derived_object_msgs: 4.0.0 (/opt/ros/foxy/share/derived_object_msgs/cmake)
+[2.169s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.235s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.296s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.351s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.352s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.352s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ad_agent_cpp/include>
+[2.352s] -- Configured cppcheck exclude dirs and/or files: 
+[2.353s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.353s] -- Configured cpplint exclude dirs and/or files: 
+[2.353s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.354s] -- Added test 'lint_cmake' to check CMake code style
+[2.354s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.354s] -- Added test 'uncrustify' to check C / C++ code style
+[2.355s] -- Configured uncrustify additional arguments: 
+[2.355s] -- Added test 'xmllint' to check XML markup files
+[2.356s] -- Configuring done
+[2.368s] -- Generating done
+[2.369s] -- Build files have been written to: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent_cpp
+[2.374s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent_cpp' returned '0': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ad_agent_cpp -DCMAKE_INSTALL_PREFIX=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp
+[2.377s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent_cpp': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent_cpp -- -j16 -l16
+[2.386s] [35m[1mScanning dependencies of target ad_agent[0m
+[2.386s] [35m[1mScanning dependencies of target local_planner_cpp[0m
+[2.388s] [ 25%] [32mBuilding CXX object CMakeFiles/ad_agent.dir/src/ad_agent.cpp.o[0m
+[2.404s] [ 50%] [32m[1mLinking CXX executable ad_agent[0m
+[2.405s] [ 75%] [32mBuilding CXX object CMakeFiles/local_planner_cpp.dir/src/local_planner_cpp.cpp.o[0m
+[2.441s] [ 75%] Built target ad_agent
+[19.289s] [100%] [32m[1mLinking CXX executable local_planner_cpp[0m
+[19.606s] [100%] Built target local_planner_cpp
+[19.608s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent_cpp' returned '0': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent_cpp -- -j16 -l16
+[19.625s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent_cpp': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent_cpp
+[19.626s] -- Install configuration: ""
+[19.627s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/lib/carla_ad_agent_cpp/ad_agent
+[19.627s] -- Set runtime path of "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/lib/carla_ad_agent_cpp/ad_agent" to ""
+[19.627s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/lib/carla_ad_agent_cpp/local_planner_cpp
+[19.630s] -- Set runtime path of "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/lib/carla_ad_agent_cpp/local_planner_cpp" to ""
+[19.630s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/launch
+[19.630s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/launch/local_planner_cpp_launch.py
+[19.630s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/ament_index/resource_index/package_run_dependencies/carla_ad_agent_cpp
+[19.630s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/ament_index/resource_index/parent_prefix_path/carla_ad_agent_cpp
+[19.630s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/environment/ament_prefix_path.sh
+[19.630s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/environment/ament_prefix_path.dsv
+[19.630s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/environment/path.sh
+[19.630s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/environment/path.dsv
+[19.630s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/local_setup.bash
+[19.631s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/local_setup.sh
+[19.631s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/local_setup.zsh
+[19.631s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/local_setup.dsv
+[19.631s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/package.dsv
+[19.631s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/ament_index/resource_index/packages/carla_ad_agent_cpp
+[19.631s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/cmake/carla_ad_agent_cppConfig.cmake
+[19.631s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/cmake/carla_ad_agent_cppConfig-version.cmake
+[19.631s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent_cpp/share/carla_ad_agent_cpp/package.xml
+[19.633s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent_cpp' returned '0': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent_cpp

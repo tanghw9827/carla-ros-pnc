@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from carla_ros_scenario_runner_types/msg/CarlaScenario.msg
+// generated code does not contain a copyright notice
+
+
+module carla_ros_scenario_runner_types {
+  module msg {
+    @verbatim (language="comment", text=
+      " Copyright (c) 2020 Intel Corporation." "\n"
+      "" "\n"
+      " This work is licensed under the terms of the MIT license." "\n"
+      " For a copy, see <https://opensource.org/licenses/MIT>.")
+    struct CarlaScenario {
+      string name;
+
+      string scenario_file;
+    };
+  };
+};

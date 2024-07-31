@@ -1,0 +1,6 @@
+source;share/carla_waypoint_publisher/hook/pythonpath.ps1
+source;share/carla_waypoint_publisher/hook/pythonpath.dsv
+source;share/carla_waypoint_publisher/hook/pythonpath.sh
+source;share/carla_waypoint_publisher/hook/ament_prefix_path.ps1
+source;share/carla_waypoint_publisher/hook/ament_prefix_path.dsv
+source;share/carla_waypoint_publisher/hook/ament_prefix_path.sh

@@ -1,0 +1,21 @@
+{
+  "package_name": "pnc_msgs",
+  "output_dir": "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs/rosidl_typesupport_fastrtps_cpp/pnc_msgs",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs/rosidl_adapter/pnc_msgs:msg/TrajectoryPoint.idl",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs/rosidl_adapter/pnc_msgs:msg/Trajectory.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs/rosidl_adapter/pnc_msgs/msg/TrajectoryPoint.idl",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs/rosidl_adapter/pnc_msgs/msg/Trajectory.idl"
+  ]
+}

@@ -1,0 +1,14 @@
+source;share/carla_ros_scenario_runner_types/hook/cmake_prefix_path.ps1
+source;share/carla_ros_scenario_runner_types/hook/cmake_prefix_path.dsv
+source;share/carla_ros_scenario_runner_types/hook/cmake_prefix_path.sh
+source;share/carla_ros_scenario_runner_types/hook/ld_library_path_lib.ps1
+source;share/carla_ros_scenario_runner_types/hook/ld_library_path_lib.dsv
+source;share/carla_ros_scenario_runner_types/hook/ld_library_path_lib.sh
+source;share/carla_ros_scenario_runner_types/hook/pythonpath.ps1
+source;share/carla_ros_scenario_runner_types/hook/pythonpath.dsv
+source;share/carla_ros_scenario_runner_types/hook/pythonpath.sh
+source;share/carla_ros_scenario_runner_types/local_setup.bash
+source;share/carla_ros_scenario_runner_types/local_setup.dsv
+source;share/carla_ros_scenario_runner_types/local_setup.ps1
+source;share/carla_ros_scenario_runner_types/local_setup.sh
+source;share/carla_ros_scenario_runner_types/local_setup.zsh

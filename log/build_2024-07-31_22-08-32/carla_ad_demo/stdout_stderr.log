@@ -1,0 +1,44 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ros_environment: 2.5.1 (/opt/ros/foxy/share/ros_environment/cmake)
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_demo
+-- Install configuration: ""
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/config
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/config/carla_ad_demo.rviz
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/config/carla_ad_demo_ros2.rviz
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/config/FollowLeadingVehicle.xosc
+-- Up-to-date: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/carla_ad_demo_with_scenario.launch.py
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/carla_ad_demo.launch.py
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/carla_ad_demo_with_scenario.launch
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/carla_ad_demo.launch
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/ament_index/resource_index/package_run_dependencies/carla_ad_demo
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/ament_index/resource_index/parent_prefix_path/carla_ad_demo
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/environment/ament_prefix_path.sh
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/environment/ament_prefix_path.dsv
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/environment/path.sh
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/environment/path.dsv
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/local_setup.bash
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/local_setup.sh
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/local_setup.zsh
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/local_setup.dsv
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/package.dsv
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/ament_index/resource_index/packages/carla_ad_demo
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/cmake/carla_ad_demoConfig.cmake
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/cmake/carla_ad_demoConfig-version.cmake
+-- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_demo/share/carla_ad_demo/package.xml

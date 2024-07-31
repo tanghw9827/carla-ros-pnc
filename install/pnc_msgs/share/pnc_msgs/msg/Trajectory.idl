@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pnc_msgs/msg/Trajectory.msg
+// generated code does not contain a copyright notice
+
+#include "pnc_msgs/msg/TrajectoryPoint.idl"
+
+module pnc_msgs {
+  module msg {
+    struct Trajectory {
+      sequence<pnc_msgs::msg::TrajectoryPoint> points;
+    };
+  };
+};

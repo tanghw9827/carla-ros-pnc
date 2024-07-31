@@ -1,0 +1,69 @@
+[0.382s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/planner_modules': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/my_planning_and_control/planner_modules -DCMAKE_INSTALL_PREFIX=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules
+[0.415s] -- The C compiler identification is GNU 9.4.0
+[0.454s] -- The CXX compiler identification is GNU 9.4.0
+[0.459s] -- Detecting C compiler ABI info
+[0.490s] -- Detecting C compiler ABI info - done
+[0.498s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.498s] -- Detecting C compile features
+[0.498s] -- Detecting C compile features - done
+[0.501s] -- Detecting CXX compiler ABI info
+[0.539s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.547s] -- Detecting CXX compile features
+[0.547s] -- Detecting CXX compile features - done
+[0.549s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.567s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.567s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.744s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.785s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.833s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.856s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.917s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.961s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.962s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.963s] -- Looking for pthread.h
+[0.997s] -- Looking for pthread.h - found
+[0.998s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.032s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.032s] -- Looking for pthread_create in pthreads
+[1.056s] -- Looking for pthread_create in pthreads - not found
+[1.056s] -- Looking for pthread_create in pthread
+[1.088s] -- Looking for pthread_create in pthread - found
+[1.089s] -- Found Threads: TRUE  
+[1.213s] -- Found carla_waypoint_types: 0.1.0 (/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/share/carla_waypoint_types/cmake)
+[1.524s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.623s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.625s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.626s] -- Configured cppcheck include dirs: 
+[1.627s] -- Configured cppcheck exclude dirs and/or files: 
+[1.628s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.629s] -- Configured cpplint exclude dirs and/or files: 
+[1.631s] -- Added test 'lint_cmake' to check CMake code style
+[1.633s] -- Added test 'uncrustify' to check C / C++ code style
+[1.633s] -- Configured uncrustify additional arguments: 
+[1.634s] -- Added test 'xmllint' to check XML markup files
+[1.639s] -- Configuring done
+[1.653s] -- Generating done
+[1.660s] -- Build files have been written to: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/planner_modules
+[1.679s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/planner_modules' returned '0': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/my_planning_and_control/planner_modules -DCMAKE_INSTALL_PREFIX=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules
+[1.680s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/planner_modules': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/planner_modules -- -j16 -l16
+[1.702s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/planner_modules' returned '0': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/planner_modules -- -j16 -l16
+[1.745s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/planner_modules': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/planner_modules
+[1.758s] -- Install configuration: ""
+[1.758s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/ament_index/resource_index/package_run_dependencies/planner_modules
+[1.759s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/ament_index/resource_index/parent_prefix_path/planner_modules
+[1.759s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/environment/ament_prefix_path.sh
+[1.759s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/environment/ament_prefix_path.dsv
+[1.759s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/environment/path.sh
+[1.759s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/environment/path.dsv
+[1.759s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/local_setup.bash
+[1.759s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/local_setup.sh
+[1.759s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/local_setup.zsh
+[1.759s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/local_setup.dsv
+[1.760s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/package.dsv
+[1.760s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/ament_index/resource_index/packages/planner_modules
+[1.760s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/cmake/planner_modulesConfig.cmake
+[1.760s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/cmake/planner_modulesConfig-version.cmake
+[1.760s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/planner_modules/share/planner_modules/package.xml
+[1.760s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/planner_modules' returned '0': AMENT_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types:/opt/ros/foxy LD_LIBRARY_PATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_waypoint_types/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla:/home/sti/Documents/CARLA_0913/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg:/home/sti/Documents/CARLA_0913/PythonAPI/carla/agents /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/planner_modules

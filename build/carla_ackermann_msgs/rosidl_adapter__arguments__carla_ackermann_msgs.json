@@ -1,0 +1,10 @@
+{
+  "package_name": "carla_ackermann_msgs",
+  "non_idl_tuples": [
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ackermann_msgs:msg/EgoVehicleControlInfo.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ackermann_msgs:msg/EgoVehicleControlCurrent.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ackermann_msgs:msg/EgoVehicleControlMaxima.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ackermann_msgs:msg/EgoVehicleControlStatus.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ackermann_msgs:msg/EgoVehicleControlTarget.msg"
+  ]
+}

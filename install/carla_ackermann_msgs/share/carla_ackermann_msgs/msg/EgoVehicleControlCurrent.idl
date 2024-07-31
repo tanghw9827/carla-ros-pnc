@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from carla_ackermann_msgs/msg/EgoVehicleControlCurrent.msg
+// generated code does not contain a copyright notice
+
+
+module carla_ackermann_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Copyright (c) 2018-2019 Intel Corporation." "\n"
+      "" "\n"
+      " This work is licensed under the terms of the MIT license." "\n"
+      " For a copy, see <https://opensource.org/licenses/MIT>." "\n"
+      "" "\n"
+      " This represents the current time/speed/accel values of the vehicle used by the controller")
+    struct EgoVehicleControlCurrent {
+      float time_sec;
+
+      float speed;
+
+      float speed_abs;
+
+      float accel;
+    };
+  };
+};

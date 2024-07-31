@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/carla_ros_scenario_runner/carla_ros_scenario_runner.egg-info
+writing ../../build/carla_ros_scenario_runner/carla_ros_scenario_runner.egg-info/PKG-INFO
+writing dependency_links to ../../build/carla_ros_scenario_runner/carla_ros_scenario_runner.egg-info/dependency_links.txt
+writing entry points to ../../build/carla_ros_scenario_runner/carla_ros_scenario_runner.egg-info/entry_points.txt
+writing requirements to ../../build/carla_ros_scenario_runner/carla_ros_scenario_runner.egg-info/requires.txt
+writing top-level names to ../../build/carla_ros_scenario_runner/carla_ros_scenario_runner.egg-info/top_level.txt
+writing manifest file '../../build/carla_ros_scenario_runner/carla_ros_scenario_runner.egg-info/SOURCES.txt'
+reading manifest file '../../build/carla_ros_scenario_runner/carla_ros_scenario_runner.egg-info/SOURCES.txt'
+writing manifest file '../../build/carla_ros_scenario_runner/carla_ros_scenario_runner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib/carla_ros_scenario_runner
+copying src/carla_ros_scenario_runner/scenario_runner_runner.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib/carla_ros_scenario_runner
+copying src/carla_ros_scenario_runner/ros_vehicle_control.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib/carla_ros_scenario_runner
+copying src/carla_ros_scenario_runner/application_runner.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib/carla_ros_scenario_runner
+copying src/carla_ros_scenario_runner/__init__.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib/carla_ros_scenario_runner
+copying src/carla_ros_scenario_runner/carla_ros_scenario_runner_node.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib/carla_ros_scenario_runner
+running install
+running install_lib
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner
+copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib/carla_ros_scenario_runner/scenario_runner_runner.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner
+copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib/carla_ros_scenario_runner/ros_vehicle_control.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner
+copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib/carla_ros_scenario_runner/application_runner.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner
+copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib/carla_ros_scenario_runner/__init__.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner
+copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/build/lib/carla_ros_scenario_runner/carla_ros_scenario_runner_node.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner
+byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner/scenario_runner_runner.py to scenario_runner_runner.cpython-38.pyc
+byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner/ros_vehicle_control.py to ros_vehicle_control.cpython-38.pyc
+byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner/application_runner.py to application_runner.cpython-38.pyc
+byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner/carla_ros_scenario_runner_node.py to carla_ros_scenario_runner_node.cpython-38.pyc
+running install_data
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/share/ament_index
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/share/ament_index/resource_index
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/share/ament_index/resource_index/packages
+copying resource/carla_ros_scenario_runner -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/share/ament_index/resource_index/packages
+copying package.xml -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/share/carla_ros_scenario_runner
+copying launch/carla_ros_scenario_runner.launch.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/share/carla_ros_scenario_runner
+running install_egg_info
+Copying ../../build/carla_ros_scenario_runner/carla_ros_scenario_runner.egg-info to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/python3.8/site-packages/carla_ros_scenario_runner-0.0.0-py3.8.egg-info
+running install_scripts
+Installing carla_ros_scenario_runner script to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ros_scenario_runner/lib/carla_ros_scenario_runner
+writing list of installed files to '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ros_scenario_runner/install.log'

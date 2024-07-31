@@ -1,0 +1,68 @@
+[0.656s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/my_planning_and_control/general_modules -DCMAKE_INSTALL_PREFIX=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules
+[0.693s] -- The C compiler identification is GNU 9.4.0
+[0.734s] -- The CXX compiler identification is GNU 9.4.0
+[0.741s] -- Detecting C compiler ABI info
+[0.772s] -- Detecting C compiler ABI info - done
+[0.787s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.787s] -- Detecting C compile features
+[0.787s] -- Detecting C compile features - done
+[0.791s] -- Detecting CXX compiler ABI info
+[0.847s] -- Detecting CXX compiler ABI info - done
+[0.861s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.861s] -- Detecting CXX compile features
+[0.862s] -- Detecting CXX compile features - done
+[0.864s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.890s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.890s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.179s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.238s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.301s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.333s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.455s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.456s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.457s] -- Looking for pthread.h
+[1.490s] -- Looking for pthread.h - found
+[1.490s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.526s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.526s] -- Looking for pthread_create in pthreads
+[1.556s] -- Looking for pthread_create in pthreads - not found
+[1.556s] -- Looking for pthread_create in pthread
+[1.591s] -- Looking for pthread_create in pthread - found
+[1.592s] -- Found Threads: TRUE  
+[1.760s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.832s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.832s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.832s] -- Configured cppcheck include dirs: 
+[1.832s] -- Configured cppcheck exclude dirs and/or files: 
+[1.833s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.833s] -- Configured cpplint exclude dirs and/or files: 
+[1.833s] -- Added test 'lint_cmake' to check CMake code style
+[1.834s] -- Added test 'uncrustify' to check C / C++ code style
+[1.834s] -- Configured uncrustify additional arguments: 
+[1.834s] -- Added test 'xmllint' to check XML markup files
+[1.835s] -- Configuring done
+[1.838s] -- Generating done
+[1.839s] -- Build files have been written to: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules
+[1.845s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/my_planning_and_control/general_modules -DCMAKE_INSTALL_PREFIX=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules
+[1.848s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules -- -j16 -l16
+[1.856s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules -- -j16 -l16
+[1.869s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules
+[1.870s] -- Install configuration: ""
+[1.870s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/ament_index/resource_index/package_run_dependencies/general_modules
+[1.870s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/ament_index/resource_index/parent_prefix_path/general_modules
+[1.870s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/environment/ament_prefix_path.sh
+[1.870s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/environment/ament_prefix_path.dsv
+[1.871s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/environment/path.sh
+[1.871s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/environment/path.dsv
+[1.871s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/local_setup.bash
+[1.871s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/local_setup.sh
+[1.871s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/local_setup.zsh
+[1.871s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/local_setup.dsv
+[1.871s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/package.dsv
+[1.873s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/ament_index/resource_index/packages/general_modules
+[1.873s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/cmake/general_modulesConfig.cmake
+[1.873s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/cmake/general_modulesConfig-version.cmake
+[1.873s] -- Installing: /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/general_modules/share/general_modules/package.xml
+[1.874s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/general_modules

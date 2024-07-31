@@ -1,0 +1,26 @@
+{
+  "package_name": "pnc_msgs",
+  "output_dir": "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs/rosidl_generator_c/pnc_msgs",
+  "template_dir": "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs/rosidl_adapter/pnc_msgs:msg/TrajectoryPoint.idl",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs/rosidl_adapter/pnc_msgs:msg/Trajectory.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/python3.8/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs/rosidl_adapter/pnc_msgs/msg/TrajectoryPoint.idl",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/pnc_msgs/rosidl_adapter/pnc_msgs/msg/Trajectory.idl"
+  ]
+}

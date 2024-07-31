@@ -1,0 +1,3 @@
+[console_scripts]
+bridge = carla_ros_bridge.bridge:main
+

@@ -1,0 +1,53 @@
+[1.187s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/ros_compatibility': PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/prefix_override:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_compatibility build --build-base /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build install --record /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/install.log --single-version-externally-managed install_data
+[1.419s] running egg_info
+[1.419s] creating ../../build/ros_compatibility/ros_compatibility.egg-info
+[1.419s] writing ../../build/ros_compatibility/ros_compatibility.egg-info/PKG-INFO
+[1.419s] writing dependency_links to ../../build/ros_compatibility/ros_compatibility.egg-info/dependency_links.txt
+[1.419s] writing requirements to ../../build/ros_compatibility/ros_compatibility.egg-info/requires.txt
+[1.419s] writing top-level names to ../../build/ros_compatibility/ros_compatibility.egg-info/top_level.txt
+[1.420s] writing manifest file '../../build/ros_compatibility/ros_compatibility.egg-info/SOURCES.txt'
+[1.447s] reading manifest file '../../build/ros_compatibility/ros_compatibility.egg-info/SOURCES.txt'
+[1.447s] writing manifest file '../../build/ros_compatibility/ros_compatibility.egg-info/SOURCES.txt'
+[1.448s] running build
+[1.448s] running build_py
+[1.448s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build
+[1.448s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib
+[1.448s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility
+[1.448s] copying src/ros_compatibility/node.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility
+[1.448s] copying src/ros_compatibility/exceptions.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility
+[1.448s] copying src/ros_compatibility/qos.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility
+[1.448s] copying src/ros_compatibility/executors.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility
+[1.448s] copying src/ros_compatibility/logging.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility
+[1.449s] copying src/ros_compatibility/__init__.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility
+[1.449s] copying src/ros_compatibility/callback_groups.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility
+[1.449s] copying src/ros_compatibility/core.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility
+[1.449s] running install
+[1.449s] running install_lib
+[1.450s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility
+[1.450s] copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility/node.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility
+[1.450s] copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility/exceptions.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility
+[1.450s] copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility/qos.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility
+[1.450s] copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility/executors.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility
+[1.450s] copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility/logging.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility
+[1.450s] copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility/__init__.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility
+[1.450s] copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility/callback_groups.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility
+[1.451s] copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build/lib/ros_compatibility/core.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility
+[1.451s] byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility/node.py to node.cpython-38.pyc
+[1.452s] byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility/exceptions.py to exceptions.cpython-38.pyc
+[1.452s] byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility/qos.py to qos.cpython-38.pyc
+[1.452s] byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility/executors.py to executors.cpython-38.pyc
+[1.452s] byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility/logging.py to logging.cpython-38.pyc
+[1.453s] byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility/__init__.py to __init__.cpython-38.pyc
+[1.453s] byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility/callback_groups.py to callback_groups.cpython-38.pyc
+[1.453s] byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility/core.py to core.cpython-38.pyc
+[1.453s] running install_data
+[1.454s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/share/ament_index
+[1.454s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/share/ament_index/resource_index
+[1.454s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/share/ament_index/resource_index/packages
+[1.454s] copying resource/ros_compatibility -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/share/ament_index/resource_index/packages
+[1.454s] copying package.xml -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/share/ros_compatibility
+[1.454s] running install_egg_info
+[1.455s] Copying ../../build/ros_compatibility/ros_compatibility.egg-info to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility-0.0.0-py3.8.egg-info
+[1.455s] running install_scripts
+[1.470s] writing list of installed files to '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/install.log'
+[1.487s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/ros_compatibility' returned '0': PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/prefix_override:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_compatibility build --build-base /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build install --record /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/install.log --single-version-externally-managed install_data

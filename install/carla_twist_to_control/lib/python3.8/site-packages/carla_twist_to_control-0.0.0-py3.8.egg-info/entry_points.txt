@@ -1,0 +1,3 @@
+[console_scripts]
+carla_twist_to_control = carla_twist_to_control.carla_twist_to_control:main
+

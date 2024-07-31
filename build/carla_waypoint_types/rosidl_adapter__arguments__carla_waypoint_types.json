@@ -1,0 +1,8 @@
+{
+  "package_name": "carla_waypoint_types",
+  "non_idl_tuples": [
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_waypoint_types:msg/CarlaWaypoint.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_waypoint_types:srv/GetWaypoint.srv",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_waypoint_types:srv/GetActorWaypoint.srv"
+  ]
+}

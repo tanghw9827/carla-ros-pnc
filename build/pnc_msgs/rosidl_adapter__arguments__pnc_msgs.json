@@ -1,0 +1,7 @@
+{
+  "package_name": "pnc_msgs",
+  "non_idl_tuples": [
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/pnc_msgs:msg/TrajectoryPoint.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/pnc_msgs:msg/Trajectory.msg"
+  ]
+}

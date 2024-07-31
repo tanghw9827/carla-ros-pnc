@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: carla-waypoint-publisher
+Version: 0.0.0
+Summary: CARLA waypoint publisher for ROS2 bridge
+Home-page: UNKNOWN
+Maintainer: CARLA Simulator Team
+Maintainer-email: carla.simulator@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

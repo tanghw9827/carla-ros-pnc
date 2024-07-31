@@ -1,0 +1,8 @@
+source;share/planner_modules/hook/cmake_prefix_path.ps1
+source;share/planner_modules/hook/cmake_prefix_path.dsv
+source;share/planner_modules/hook/cmake_prefix_path.sh
+source;share/planner_modules/local_setup.bash
+source;share/planner_modules/local_setup.dsv
+source;share/planner_modules/local_setup.ps1
+source;share/planner_modules/local_setup.sh
+source;share/planner_modules/local_setup.zsh

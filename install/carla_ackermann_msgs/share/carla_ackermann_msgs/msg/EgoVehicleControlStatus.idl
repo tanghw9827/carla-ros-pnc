@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from carla_ackermann_msgs/msg/EgoVehicleControlStatus.msg
+// generated code does not contain a copyright notice
+
+
+module carla_ackermann_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Copyright (c) 2018-2019 Intel Corporation." "\n"
+      "" "\n"
+      " This work is licensed under the terms of the MIT license." "\n"
+      " For a copy, see <https://opensource.org/licenses/MIT>." "\n"
+      "" "\n"
+      " This represents the control status variables of the ego vehicle control")
+    struct EgoVehicleControlStatus {
+      @verbatim (language="comment", text=
+        " the current control status")
+      string status;
+
+      @verbatim (language="comment", text=
+        " speed controller")
+      uint8 speed_control_activation_count;
+
+      float speed_control_accel_delta;
+
+      float speed_control_accel_target;
+
+      @verbatim (language="comment", text=
+        " acceleration controller")
+      float accel_control_pedal_delta;
+
+      float accel_control_pedal_target;
+
+      @verbatim (language="comment", text=
+        " borders for lay off pedal")
+      float brake_upper_border;
+
+      float throttle_lower_border;
+    };
+  };
+};

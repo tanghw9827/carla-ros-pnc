@@ -1,0 +1,3 @@
+[console_scripts]
+carla_walker_agent = carla_walker_agent.carla_walker_agent:main
+

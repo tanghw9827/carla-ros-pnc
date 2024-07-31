@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from carla_ros_scenario_runner_types/srv/ExecuteScenario.srv
+// generated code does not contain a copyright notice
+
+#include "carla_ros_scenario_runner_types/msg/CarlaScenario.idl"
+
+module carla_ros_scenario_runner_types {
+  module srv {
+    @verbatim (language="comment", text=
+      " Copyright (c) 2020 Intel Corporation." "\n"
+      "" "\n"
+      " This work is licensed under the terms of the MIT license." "\n"
+      " For a copy, see <https://opensource.org/licenses/MIT>.")
+    struct ExecuteScenario_Request {
+      carla_ros_scenario_runner_types::msg::CarlaScenario scenario;
+    };
+    struct ExecuteScenario_Response {
+      boolean result;
+    };
+  };
+};

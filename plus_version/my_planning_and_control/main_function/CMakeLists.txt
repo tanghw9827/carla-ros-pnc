@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 11)
 if(NOT CMAKE_C_STANDARD)
   set(CMAKE_C_STANDARD 99)
 endif()
-
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address,undefined")
 set(CMAKE_BUILD_TYPE Debug)
 
 # Default to C++14

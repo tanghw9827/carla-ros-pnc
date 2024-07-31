@@ -1,0 +1,3 @@
+/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_waypoint_types/rosidl_adapter/carla_waypoint_types:msg/CarlaWaypoint.idl
+/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_waypoint_types/rosidl_adapter/carla_waypoint_types:srv/GetWaypoint.idl
+/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_waypoint_types/rosidl_adapter/carla_waypoint_types:srv/GetActorWaypoint.idl

@@ -1,0 +1,3 @@
+[console_scripts]
+carla_waypoint_publisher = carla_waypoint_publisher.carla_waypoint_publisher:main
+

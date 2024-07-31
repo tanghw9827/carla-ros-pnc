@@ -1,0 +1,35 @@
+[1.113s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_common': PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/prefix_override:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/carla_common build --build-base /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/build install --record /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/install.log --single-version-externally-managed install_data
+[1.322s] running egg_info
+[1.322s] creating ../../build/carla_common/carla_common.egg-info
+[1.322s] writing ../../build/carla_common/carla_common.egg-info/PKG-INFO
+[1.322s] writing dependency_links to ../../build/carla_common/carla_common.egg-info/dependency_links.txt
+[1.322s] writing requirements to ../../build/carla_common/carla_common.egg-info/requires.txt
+[1.323s] writing top-level names to ../../build/carla_common/carla_common.egg-info/top_level.txt
+[1.324s] writing manifest file '../../build/carla_common/carla_common.egg-info/SOURCES.txt'
+[1.352s] reading manifest file '../../build/carla_common/carla_common.egg-info/SOURCES.txt'
+[1.353s] writing manifest file '../../build/carla_common/carla_common.egg-info/SOURCES.txt'
+[1.353s] running build
+[1.353s] running build_py
+[1.354s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/build
+[1.354s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/build/lib
+[1.354s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/build/lib/carla_common
+[1.354s] copying src/carla_common/transforms.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/build/lib/carla_common
+[1.354s] copying src/carla_common/__init__.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/build/lib/carla_common
+[1.354s] running install
+[1.354s] running install_lib
+[1.355s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages/carla_common
+[1.355s] copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/build/lib/carla_common/transforms.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages/carla_common
+[1.356s] copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/build/lib/carla_common/__init__.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages/carla_common
+[1.356s] byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages/carla_common/transforms.py to transforms.cpython-38.pyc
+[1.357s] byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages/carla_common/__init__.py to __init__.cpython-38.pyc
+[1.357s] running install_data
+[1.357s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/share/ament_index
+[1.357s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/share/ament_index/resource_index
+[1.357s] creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/share/ament_index/resource_index/packages
+[1.357s] copying resource/carla_common -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/share/ament_index/resource_index/packages
+[1.357s] copying package.xml -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/share/carla_common
+[1.357s] running install_egg_info
+[1.358s] Copying ../../build/carla_common/carla_common.egg-info to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages/carla_common-0.0.0-py3.8.egg-info
+[1.358s] running install_scripts
+[1.371s] writing list of installed files to '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/install.log'
+[1.390s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_common' returned '0': PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/prefix_override:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/carla_common build --build-base /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/build install --record /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_common/install.log --single-version-externally-managed install_data

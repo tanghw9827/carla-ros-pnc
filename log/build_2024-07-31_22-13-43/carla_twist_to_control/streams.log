@@ -1,0 +1,21 @@
+[1.153s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_twist_to_control': PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_twist_to_control/prefix_override:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_twist_to_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/carla_twist_to_control build --build-base /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_twist_to_control/build install --record /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_twist_to_control/install.log --single-version-externally-managed install_data
+[1.398s] running egg_info
+[1.398s] writing ../../build/carla_twist_to_control/carla_twist_to_control.egg-info/PKG-INFO
+[1.398s] writing dependency_links to ../../build/carla_twist_to_control/carla_twist_to_control.egg-info/dependency_links.txt
+[1.398s] writing entry points to ../../build/carla_twist_to_control/carla_twist_to_control.egg-info/entry_points.txt
+[1.398s] writing requirements to ../../build/carla_twist_to_control/carla_twist_to_control.egg-info/requires.txt
+[1.398s] writing top-level names to ../../build/carla_twist_to_control/carla_twist_to_control.egg-info/top_level.txt
+[1.425s] reading manifest file '../../build/carla_twist_to_control/carla_twist_to_control.egg-info/SOURCES.txt'
+[1.425s] writing manifest file '../../build/carla_twist_to_control/carla_twist_to_control.egg-info/SOURCES.txt'
+[1.425s] running build
+[1.425s] running build_py
+[1.425s] running install
+[1.426s] running install_lib
+[1.427s] running install_data
+[1.427s] running install_egg_info
+[1.428s] removing '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_twist_to_control/lib/python3.8/site-packages/carla_twist_to_control-0.0.0-py3.8.egg-info' (and everything under it)
+[1.429s] Copying ../../build/carla_twist_to_control/carla_twist_to_control.egg-info to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_twist_to_control/lib/python3.8/site-packages/carla_twist_to_control-0.0.0-py3.8.egg-info
+[1.429s] running install_scripts
+[1.442s] Installing carla_twist_to_control script to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_twist_to_control/lib/carla_twist_to_control
+[1.442s] writing list of installed files to '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_twist_to_control/install.log'
+[1.580s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_twist_to_control' returned '0': PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_twist_to_control/prefix_override:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_twist_to_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/carla_twist_to_control build --build-base /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_twist_to_control/build install --record /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_twist_to_control/install.log --single-version-externally-managed install_data

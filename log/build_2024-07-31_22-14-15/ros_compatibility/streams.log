@@ -1,0 +1,19 @@
+[1.524s] Invoking command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/ros_compatibility': PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/prefix_override:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_compatibility build --build-base /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build install --record /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/install.log --single-version-externally-managed install_data
+[1.878s] running egg_info
+[1.878s] writing ../../build/ros_compatibility/ros_compatibility.egg-info/PKG-INFO
+[1.878s] writing dependency_links to ../../build/ros_compatibility/ros_compatibility.egg-info/dependency_links.txt
+[1.879s] writing requirements to ../../build/ros_compatibility/ros_compatibility.egg-info/requires.txt
+[1.879s] writing top-level names to ../../build/ros_compatibility/ros_compatibility.egg-info/top_level.txt
+[1.911s] reading manifest file '../../build/ros_compatibility/ros_compatibility.egg-info/SOURCES.txt'
+[1.912s] writing manifest file '../../build/ros_compatibility/ros_compatibility.egg-info/SOURCES.txt'
+[1.912s] running build
+[1.912s] running build_py
+[1.913s] running install
+[1.914s] running install_lib
+[1.915s] running install_data
+[1.916s] running install_egg_info
+[1.917s] removing '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility-0.0.0-py3.8.egg-info' (and everything under it)
+[1.918s] Copying ../../build/ros_compatibility/ros_compatibility.egg-info to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages/ros_compatibility-0.0.0-py3.8.egg-info
+[1.918s] running install_scripts
+[1.937s] writing list of installed files to '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/install.log'
+[1.971s] Invoked command in '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/ros_compatibility' returned '0': PYTHONPATH=/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/prefix_override:/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/ros_compatibility/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_compatibility build --build-base /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/build install --record /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/ros_compatibility/install.log --single-version-externally-managed install_data

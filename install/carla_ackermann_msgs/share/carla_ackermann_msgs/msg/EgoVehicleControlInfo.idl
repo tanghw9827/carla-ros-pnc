@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from carla_ackermann_msgs/msg/EgoVehicleControlInfo.msg
+// generated code does not contain a copyright notice
+
+#include "carla_ackermann_msgs/msg/EgoVehicleControlCurrent.idl"
+#include "carla_ackermann_msgs/msg/EgoVehicleControlMaxima.idl"
+#include "carla_ackermann_msgs/msg/EgoVehicleControlStatus.idl"
+#include "carla_ackermann_msgs/msg/EgoVehicleControlTarget.idl"
+#include "carla_msgs/msg/CarlaEgoVehicleControl.idl"
+#include "std_msgs/msg/Header.idl"
+
+module carla_ackermann_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Copyright (c) 2018-2019 Intel Corporation." "\n"
+      "" "\n"
+      " This work is licensed under the terms of the MIT license." "\n"
+      " For a copy, see <https://opensource.org/licenses/MIT>." "\n"
+      "" "\n"
+      " This represents an info message of the ego vehicle")
+    struct EgoVehicleControlInfo {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " the restrictions")
+      carla_ackermann_msgs::msg::EgoVehicleControlMaxima restrictions;
+
+      @verbatim (language="comment", text=
+        " the target values")
+      carla_ackermann_msgs::msg::EgoVehicleControlTarget target;
+
+      @verbatim (language="comment", text=
+        " the currently measured values")
+      carla_ackermann_msgs::msg::EgoVehicleControlCurrent current;
+
+      @verbatim (language="comment", text=
+        " the current control status")
+      carla_ackermann_msgs::msg::EgoVehicleControlStatus status;
+
+      @verbatim (language="comment", text=
+        " the current control output to CARLA")
+      carla_msgs::msg::CarlaEgoVehicleControl output;
+    };
+  };
+};

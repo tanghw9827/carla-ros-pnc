@@ -1,0 +1,50 @@
+running egg_info
+creating ../../build/carla_ad_agent/carla_ad_agent.egg-info
+writing ../../build/carla_ad_agent/carla_ad_agent.egg-info/PKG-INFO
+writing dependency_links to ../../build/carla_ad_agent/carla_ad_agent.egg-info/dependency_links.txt
+writing entry points to ../../build/carla_ad_agent/carla_ad_agent.egg-info/entry_points.txt
+writing requirements to ../../build/carla_ad_agent/carla_ad_agent.egg-info/requires.txt
+writing top-level names to ../../build/carla_ad_agent/carla_ad_agent.egg-info/top_level.txt
+writing manifest file '../../build/carla_ad_agent/carla_ad_agent.egg-info/SOURCES.txt'
+reading manifest file '../../build/carla_ad_agent/carla_ad_agent.egg-info/SOURCES.txt'
+writing manifest file '../../build/carla_ad_agent/carla_ad_agent.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent
+copying src/carla_ad_agent/ad_agent.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent
+copying src/carla_ad_agent/misc.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent
+copying src/carla_ad_agent/local_planner.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent
+copying src/carla_ad_agent/vehicle_pid_controller.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent
+copying src/carla_ad_agent/agent.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent
+copying src/carla_ad_agent/__init__.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent
+running install
+running install_lib
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent/ad_agent.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent/misc.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent/local_planner.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent/vehicle_pid_controller.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent/agent.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+copying /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/build/lib/carla_ad_agent/__init__.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent
+byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/ad_agent.py to ad_agent.cpython-38.pyc
+byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/misc.py to misc.cpython-38.pyc
+byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/local_planner.py to local_planner.cpython-38.pyc
+byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/vehicle_pid_controller.py to vehicle_pid_controller.cpython-38.pyc
+byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/agent.py to agent.cpython-38.pyc
+byte-compiling /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/share/ament_index
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/share/ament_index/resource_index
+creating /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/share/ament_index/resource_index/packages
+copying resource/carla_ad_agent -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/share/ament_index/resource_index/packages
+copying package.xml -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/share/carla_ad_agent
+copying launch/carla_ad_agent.launch.py -> /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/share/carla_ad_agent
+running install_egg_info
+Copying ../../build/carla_ad_agent/carla_ad_agent.egg-info to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/python3.8/site-packages/carla_ad_agent-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ad_agent script to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/carla_ad_agent
+Installing local_planner script to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/carla_ad_agent
+Installing testing_waypoints script to /home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/install/carla_ad_agent/lib/carla_ad_agent
+writing list of installed files to '/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/build/carla_ad_agent/install.log'

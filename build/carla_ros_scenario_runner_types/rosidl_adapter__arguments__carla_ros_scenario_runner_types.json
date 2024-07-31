@@ -1,0 +1,9 @@
+{
+  "package_name": "carla_ros_scenario_runner_types",
+  "non_idl_tuples": [
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ros_scenario_runner_types:msg/CarlaScenario.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ros_scenario_runner_types:msg/CarlaScenarioList.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ros_scenario_runner_types:msg/CarlaScenarioRunnerStatus.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_ros_scenario_runner_types:srv/ExecuteScenario.srv"
+  ]
+}

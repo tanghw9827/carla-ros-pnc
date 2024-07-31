@@ -1,0 +1,4 @@
+source;share/carla_ros_scenario_runner_types/local_setup.bash
+source;share/carla_ros_scenario_runner_types/local_setup.dsv
+source;share/carla_ros_scenario_runner_types/local_setup.sh
+source;share/carla_ros_scenario_runner_types/local_setup.zsh

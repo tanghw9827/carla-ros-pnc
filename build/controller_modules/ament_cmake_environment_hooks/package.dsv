@@ -1,0 +1,4 @@
+source;share/controller_modules/local_setup.bash
+source;share/controller_modules/local_setup.dsv
+source;share/controller_modules/local_setup.sh
+source;share/controller_modules/local_setup.zsh

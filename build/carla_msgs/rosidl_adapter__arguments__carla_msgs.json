@@ -1,0 +1,26 @@
+{
+  "package_name": "carla_msgs",
+  "non_idl_tuples": [
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaBoundingBox.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaEgoVehicleControl.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaEgoVehicleStatus.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaEgoVehicleInfoWheel.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaEgoVehicleInfo.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaCollisionEvent.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaLaneInvasionEvent.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaWorldInfo.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaActorInfo.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaActorList.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaControl.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaStatus.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaTrafficLightInfo.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaTrafficLightInfoList.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaTrafficLightStatus.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaTrafficLightStatusList.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaWalkerControl.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:msg/CarlaWeatherParameters.msg",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:srv/SpawnObject.srv",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:srv/DestroyObject.srv",
+    "/home/sti/Documents/Planning-and-Control-based-on-Carla-and-ROS2/plus_version/carla_msgs:srv/GetBlueprints.srv"
+  ]
+}
