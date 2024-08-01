@@ -1,5 +1,5 @@
 # 项目简介
-使用 Carla 和 ROS2 部署 Apollo 规划控制算法，并在 carla_ad_demo 场景中运行
+使用 Carla 和 ROS2 部署规划控制算法，并在 carla_ad_demo 场景中运行
 
 # 环境配置
 - Ubuntu 20.04  
@@ -10,8 +10,8 @@
 - matplot++ 最新版本   
 
 # 算法实现
-- 控制算法：纵向串级 PID，横向 LQR，横纵向 MPC 
-- 规划算法：参考线 OSQP 平滑，路径 DP+QP，速度 DP+QP
+- 控制算法：Stanley，纵向串级 PID、横向 LQR，横纵向 MPC 
+- 规划算法：A*，参考线 OSQP 平滑，路径 DP+QP，速度 DP+QP
 
 # 目录结构
 ```plaintext
