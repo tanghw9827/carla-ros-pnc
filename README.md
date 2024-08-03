@@ -10,7 +10,7 @@
 - matplot++ 最新版本   
 
 # 算法实现
-- 控制算法：Stanley，纵向串级 PID、横向 LQR，横纵向 MPC 
+- 控制算法：Pure Pursuit，Stanley，纵向串级 PID，横向 LQ，横纵向 MPC 
 - 规划算法：A*，Hybrid A*，RRT*，参考线 OSQP 平滑，EM Planner（路径 DP+QP、速度 DP+QP），Lattice Planner
 
 # 目录结构
